@@ -1,0 +1,78 @@
+* body {
+
+    background-color: #353535;
+}
+
+#Page {
+    box-sizing: border-box;
+    width: 900px;
+    padding: 24px;
+    background-color: #00000088;
+    border-radius: 8px;
+    margin:auto;
+    border: 2px solid rgb(71, 71, 71);
+    margin-bottom: 20px;
+
+}
+
+#Foto_1 {
+    display: block;
+    width: 500px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    
+    
+    
+
+}
+
+
+#h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: auto;
+    color: azure;
+
+}
+
+#txt_1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 18px 80px;
+    color: azure;
+    font-size: 16px
+
+}
+
+#Page2 {
+    box-sizing: border-box;
+    width: 900px;
+    padding: 24px;
+    background-color: #41202083;
+    border-radius: 8px;
+    margin:auto;
+    border: 2px solid rgb(71, 71, 71);
+    
+
+}
+
+#Foto_2 {
+    display: block;
+    width: 500px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+#txt_2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 18px 80px;
+    color: azure;
+    font-size: 16px
+
+}
+
