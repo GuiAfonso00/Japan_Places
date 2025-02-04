@@ -1,15 +1,37 @@
 * body {
 
-    background-color: #353535;
+    background-image: url(Assests/MacBook\ Air\ -\ 2\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+#Page0 {
+    box-sizing: border-box;
+    width: 900px;
+    padding: 24px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+
+#h0 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: auto;
+    color: azure;
+    
+}
+
 
 #Page {
     box-sizing: border-box;
     width: 900px;
     padding: 24px;
-    background-color: #00000088;
+    background-color: #20385caf;
     border-radius: 8px;
-    margin:auto;
+    margin: auto;
     border: 2px solid rgb(71, 71, 71);
     margin-bottom: 20px;
 
@@ -21,9 +43,9 @@
     border-radius: 8px;
     margin: auto;
     text-align: center;
-    
-    
-    
+
+
+
 
 }
 
@@ -42,7 +64,6 @@
     padding: 18px 80px;
     color: azure;
     font-size: 16px
-
 }
 
 #Page2 {
@@ -51,9 +72,10 @@
     padding: 24px;
     background-color: #41202083;
     border-radius: 8px;
-    margin:auto;
+    margin: auto;
     border: 2px solid rgb(71, 71, 71);
-    
+    margin-bottom: 20px;
+
 
 }
 
@@ -72,7 +94,66 @@
     text-align: left;
     padding: 18px 80px;
     color: azure;
-    font-size: 16px
+    font-size: 16px;
 
 }
 
+
+#Page3 {
+    box-sizing: border-box;
+    width: 900px;
+    padding: 24px;
+    background-color: #52474783;
+    border-radius: 8px;
+    margin: auto;
+    border: 2px solid rgb(71, 71, 71);
+
+
+}
+
+
+#Foto_3 {
+    display: block;
+    width: 500px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    display: flex;
+    left: 40px;
+    padding-bottom: 18px;
+}
+
+ul li::before {
+    left: -40px;
+    content: "👹";
+    position: absolute;
+
+}
+
+
+#list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 18px 80px;
+    color: azure;
+    font-size: 16px;
+    list-style: none;
+
+
+}
+
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 18px 80px;
+    color: azure;
+    font-size: 16px;
+
+}
